@@ -1,11 +1,17 @@
 {
-  "name": "javascript-beyond-basics",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "javascript-beyond-basics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^20.0.4"
+    },
+    "jest": {
+        "roots": ["<rootDir>/app"]
+    },
+    "author": "",
+    "license": "ISC"
 }
