@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
